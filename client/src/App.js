@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" data-testid='header'>
-        <NavBar/>
+        <NavBar />
         {this.state.player.map(info => {
           return (
           <PlayerCard
